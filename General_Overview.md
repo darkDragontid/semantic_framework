@@ -1,7 +1,6 @@
-This tagging system is a method of semantic decomposition that transforms unstructured text from personal notes into a machine-readable hierarchy of semantic units. Its goal is to overcome the limitations of flat tags and rigid hierarchies, providing a foundation for deep analysis and automatic processing of thoughts.
+This tagging system is a method of semantic decomposition that transforms unstructured text from personal notes into a machine-readable hierarchy of semantic units; is a formalized mechanism for transforming unstructured text into a machine-readable ontology of personal knowledge through the architectural distribution of semantic roles and differential strictness of tag formation. Its goal is to overcome the limitations of flat tags and rigid hierarchies, providing a foundation for deep analysis and automatic processing of thoughts.
 
 The system consists of the following field groups:
-
 
 Fundamental Classifiers (domain, category)
 
@@ -31,3 +30,4 @@ This system is a formalized mechanism for transforming unstructured text into a 
 This tagging system can be defined as a Structured Interpretative Framework for AI-Human Symbiosis.
 
 (This framework is designed for AI-human symbiosis. Its creation, including the refinement and translation of this documentation, is a practical example of this collaboration in action.)
+
