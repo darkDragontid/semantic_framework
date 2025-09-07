@@ -1,4 +1,5 @@
 Appendix 2. Form
+
 Form "with examples" [questions] {boundaries} <requirements>
 
 action: "plan", "urgent", "tomorrow" [What immediate action is required for the note?] {A utilitarian field for management, does not carry semantic load} <Brief notes, imperatives>
@@ -19,7 +20,7 @@ interpretation: (interpretation) [What interpretations are possible for the note
   - theme: "obligation_management" [Which broad phenomenon/problem is considered in this perspective?] {Defined within interpretation for a specific perspective. Not an event, name, or emotion} <Only nouns and adjectives, no more than 2–3 words>
   - focus: "deadline_failure" [Which specific aspect within the theme is important in this perspective?] {Defined within interpretation. Always paired with the interpretation's theme} <Only nouns and adjectives, no more than 2–3 words>
   - activity_type: "critique"
-  - content_type: "idea"
+  - content_type: "idea"
 
 keywords: "Lomonosov", "Python", "black_hole" [Which key names/terms are explicitly mentioned?] {Only objects directly named in the text} <Complex tags and set phrases are allowed>
 
