@@ -24,31 +24,31 @@ Values: Fixed set:
 
 Purpose: The type of activity or material.
 
-Values: Fixed list (see Appendix). Example: "Reflection", "Project", "Quote".
-
 Boundaries: Not a thematic tag. Defines the format of interaction with information.
 
 Requirements: Only values from the list.
+
+Values: Fixed list (see Appendix). Example: "Reflection", "Project", "Quote".
 
 ***theme (object)***
 
 Purpose: A broad phenomenon, problem, or object of consideration.
 
-Values: Composite tags in the format Adj_Noun or Noun_Noun (e.g., artificial_intelligence).
-
 Boundaries: Not a specific event, name, or emotion.
 
 Requirements: Prepositions, verbs, abbreviations are prohibited.
+
+Values: Composite tags in the format Adj_Noun or Noun_Noun (e.g., artificial_intelligence).
 
 ***focus (subject)***
 
 Purpose: A specific aspect or angle within the theme.
 
-Values: Composite tags in the format Adj_Noun or Noun_Noun (e.g., AI_ethics).
-
 Boundaries: Always used in pair with theme. Not an independent concept.
 
 Requirements: Prepositions, verbs are prohibited.
+
+Values: Composite tags in the format Adj_Noun or Noun_Noun (e.g., AI_ethics).
 
 ***Meta-Layer interpretations***
 A higher level of abstraction in the system, intended to manage not the content of the note, but its interpretations.
@@ -67,78 +67,100 @@ Simply put, it is the "interface" for managing the multidimensionality of a sing
 
 Purpose: Names, terms, objects explicitly mentioned in the text.
 
-Values: Nouns, proper names, terms (e.g., Lomonosov, Python, black_hole).
-
 Boundaries: Only concepts directly mentioned in the text.
 
 Requirements: Set phrases and prepositions are allowed.
+
+Values: Nouns, proper names, terms (e.g., Lomonosov, Python, black_hole).
 
 ***operation (operation)***
 
 Purpose: The type of mental operation performed on the information.
 
-Values: Atomic tags: analysis, comparison, synthesis, question.
-
 Boundaries: Not a thematic tag or emotion.
 
 Requirements: Only single-word tags.
+
+Values: Atomic tags: analysis, comparison, synthesis, question.
 
 ***emotion (emotion)***
 
 Purpose: The emotion or mood conveyed by the text.
 
-Values: Atomic tags: anxiety, curiosity, calm.
-
 Boundaries: Only emotions, not operations or objects.
 
 Requirements: Only single-word tags.
+
+Values: Atomic tags: anxiety, curiosity, calm.
 
 ***context (context)***
 
 Purpose: The circumstances, time, or place discussed in the note.
 
-Values: Set phrases: covid_pandemic, office, summer_2015.
-
 Boundaries: The context of the content, not of the note's creation (that is meta_context).
 
 Requirements: Prepositions and complex forms are allowed.
+
+Values: Set phrases: covid_pandemic, office, summer_2015.
 
 ***related (connections)***
 
 Purpose: Fundamental concepts not explicitly named but critical for understanding.
 
-Values: Composite tags in the format Adj_Noun or Noun_Noun (e.g., digital_immortality).
-
 Boundaries: Only implicit concepts. Does not duplicate keywords.
 
 Requirements: Prepositions and verbs are prohibited.
+
+Values: Composite tags in the format Adj_Noun or Noun_Noun (e.g., digital_immortality).
 
 ***meta_context (meta-context)***
 
 Purpose: The circumstances of the note's creation (where, when, how it was created).
 
-Values: Arbitrary formats: 2024_09_26, conversation_with_Anna, nocturnal_insight.
-
 Boundaries: Only the creation context, not the content.
 
 Requirements: Any practically useful formats are allowed.
+
+Values: Arbitrary formats: 2024_09_26, conversation_with_Anna, nocturnal_insight.
+
 
 ***action (action)***
 
 Purpose: Utilitarian notes for managing tasks related to the note.
 
-Values: Arbitrary formats: urgent, to_read, draft.
-
 Boundaries: Does not carry semantic load about the content.
 
 Requirements: Maximum pragmatism, any formats.
+
+Values: Arbitrary formats: urgent, to_read, draft.
+
+***created_date***
+
+Purpose: A strict, machine-readable timestamp of the exact moment a note was created. Used for building precise timelines and analyzing the evolution of thoughts and ideas.
+
+Boundaries:
+
+- Set once at the moment of note creation and never changed.
+
+- Contains only the timestamp. All subjective context (e.g., "late_night", "inspiration") remains in the meta_context field.
+
+Requirements:
+
+- Must be populated automatically by the system or editor upon file creation.
+
+- The format is mandatory for machine readability.
+
+Values: Date and time in ISO 8601 (UTC) format: YYYY-MM-DDThh:mm:ssZ.
+
+_Example: 2024-05-27T19:32:45Z (May 27, 2024, 19:32:45 UTC)._
 
 ***components (components)***
 
 Purpose: A service field for the machine decomposition of complex tags into words.
 
-Values: Automatic splitting of tags (e.g., artificial_intelligence → artificial, intelligence).
-
 Boundaries: For machine use only, not for manual filling.
 
 Requirements: Filled in automatically.
+
+Values: Automatic splitting of tags (e.g., artificial_intelligence → artificial, intelligence).
+
