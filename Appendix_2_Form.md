@@ -1,14 +1,14 @@
 Appendix 2. Form
 
-Form "with examples" [questions] {boundaries} <requirements>
+Form: "with examples" [questions] {boundaries} <requirements>
 
 action: "plan", "urgent", "tomorrow" [What immediate action is required for the note?] {A utilitarian field for management, does not carry semantic load} <Brief notes, imperatives>
 
 meta_context: "2024_09_26", "conversation_with_Anna", "nocturnal_insight" [Under what circumstances was the note created?] {Context of creation, not content} <Any practically useful formats>
 
-domain: "Experience", "Society", "Collection", "Development", "Science", "Creativity" [Which major domain from the predefined list does this belong to?] {Only domains from the fixed list} <Select 1-N values from a strict list>
+domain: "Experience", "Society", "Science", "Creativity", "Technology", "Management", "System", "Collection" [Which major domain from the predefined list does this belong to?] {Only domains from the fixed list} <Select relevant values from a strict list>
 
-category: "Reflection", "Project", "Quote" [Which type of activity from the predefined list is represented?] {Type of operation on content, not a thematic tag} <Selection from a fixed list (see Appendix)>
+category: "Analysis", "Practice", "Idea", "Project", "Biography", "Reflection" [Which type of activity from the predefined list is represented?] {Type of operation on content, not a thematic tag} <Selection from a fixed list (see Appendix 1)>
 
 interpretation: (interpretation) [What interpretations are possible for the note?] {Container for different theme/focus pairs and activity types per perspective} <Structure: list of dictionaries with fields: perspective, theme, focus, activity_type, content_type>
 - perspective: "psychological"
