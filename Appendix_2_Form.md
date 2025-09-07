@@ -6,7 +6,7 @@ action: "plan", "urgent", "tomorrow" [What immediate action is required for the 
 
 meta_context: "2024_09_26", "conversation_with_Anna", "nocturnal_insight" [Under what circumstances was the note created?] {Context of creation, not content} <Any practically useful formats>
 
-domain: "Experience", "Society", "Science", "Creativity", "Technology", "Management", "System", "Collection" [Which major domain from the predefined list does this belong to?] {Only domains from the fixed list} <Select relevant values from a strict list>
+domain: "Experience", "Society", "Science", "Creativity", "Technology", "Management", "System", "Collection" [Which major domain from the predefined list does this belong to?] {Only domains from the fixed list} <Select relevant values from a strict list> 
 
 category: "Analysis", "Practice", "Idea", "Project", "Biography", "Reflection" [Which type of activity from the predefined list is represented?] {Type of operation on content, not a thematic tag} <Selection from a fixed list (see Appendix 1)>
 
@@ -30,6 +30,8 @@ emotion: "anxiety", "curiosity", "clarity" [Which emotion/mood does the text con
 
 context: "covid_pandemic", "office", "summer_2015" [Which circumstances/time/place are discussed?] {Context of content, not creation} <Complex tags with prepositions allowed>
 
+
 related: "digital_immortality", "optimization_theory" [Which implicit fundamental concepts is this related to?] {Not explicitly mentioned, but critical for understanding} <Only nouns and adjectives, no more than 2–3 words>
+
 
 components: (machine-only) [Automatic decomposition] {For machine use only} <Auto-filled, breaks down complex tags into words>
