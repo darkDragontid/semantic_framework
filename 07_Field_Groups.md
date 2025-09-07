@@ -29,11 +29,8 @@ Purpose: To answer interpretation questions: "How to understand this?" (theme/fo
 Fields for describing the content of a note from different angles. Their rules are less strict, providing a connection to natural language.
 
 - keywords (Keywords) — Explicitly mentioned objects.
-
 - operation (Operation) — The mental operation performed on the information.
-
 - emotion (Emotion) — The emotional background.
-
 - context (Context) — The circumstances described in the text.
 
 Purpose: To answer the questions: "What is happening here?" They add flesh and blood to the semantic framework created by the core.
@@ -43,9 +40,11 @@ Purpose: To answer the questions: "What is happening here?" They add flesh and b
 Fields that do not carry semantic load about the note's content. They manage the process of working with it.
 
 - meta_context (Meta-context) — The circumstances of the note's creation.
-
+  
 - action (Action) — Management notes for the owner.
 
+- created_date (created date) - machine-readable timestamp.
+  
 - components (Components) — A service field for machine decomposition.
 
 Purpose: To answer the questions: "How and when was this created?" and "What to do with this?". This is the "instrument panel" for management, not for interpretation.
