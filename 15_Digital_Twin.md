@@ -1,0 +1,4 @@
+### Digital Twin
+
+This semantic tagging system lays the foundation for a virtual double — a digital entity capable of modeling not only your current thinking but also its chronological development. Through machine-readable units of meaning (theme, focus, relate, operation) and precise timestamps (created_date), the system captures the evolution of ideas: how connections between concepts were formed, how the interpretation of themes changed, and what emotions accompanied these processes. This allows the AI to analyze not only static beliefs but also the dynamics of thought — its growth stages, transformations, and points of intellectual breakthrough. Thus, the system becomes a core for developing a personalized AI agent capable of reproducing not just your views, but the logic of their evolution over time.
+
