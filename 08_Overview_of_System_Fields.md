@@ -154,13 +154,3 @@ Values: Date and time in ISO 8601 (UTC) format: YYYY-MM-DDThh:mm:ssZ.
 
 _Example: 2024-05-27T19:32:45Z (May 27, 2024, 19:32:45 UTC)._
 
-***components (components)***
-
-Purpose: A service field for the machine decomposition of complex tags into words.
-
-Boundaries: For machine use only, not for manual filling.
-
-Requirements: Filled in automatically.
-
-Values: Automatic splitting of tags (e.g., artificial_intelligence → artificial, intelligence).
-
