@@ -25,7 +25,7 @@ The system consists of the following field groups:
 1.  **Strict Classification:** `domain`, `category`
 2.  **Semantic Decomposition:** `theme`, `focus`, `relate`
 3.  **Semantic Description:** `keywords`, `operation`, `emotion`, `context` (describes content, actions, and circumstances)
-4.  **Utility Fields:** `meta_context` (note creation context), `action` (task management), `created_date` (timestamp), `components` (machine decomposition)
+4.  **Utility Fields:** `meta_context` (note creation context), `action` (task management), `created_date` (timestamp)
 
 ## 🔑 Key Differentiators
 
