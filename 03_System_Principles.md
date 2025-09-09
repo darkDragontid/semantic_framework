@@ -25,10 +25,12 @@ Principles that define the architecture and organization of data.
 
 Instructional rules for consistent and clean system population.
 
-- 3.1 Rule of Sequence: Fields must be filled in a strict order.
+- 3.1 Atomic Semantic Isolation: Contextually isolated note analysis requires that each note be processed as a self-contained unit of meaning, independent of external context (other notes, previous queries, or global data).
 
-- 3.2 Rule of Layer Purity: Mixing meanings between fields is not allowed.
+- 3.2 Rule of Sequence: Fields must be filled in a strict order.
 
-- 3.3 Rule of Relevant Multiplicity: All relevant values must be selected for each field.
+- 3.3 Rule of Layer Purity: Mixing meanings between fields is not allowed.
 
-- 3.4 Rule of Machine Decomposition: Compound tags must be automatically broken down into words in the components field.
+- 3.4 Rule of Relevant Multiplicity: All relevant values must be selected for each field.
+
+- 3.5 Rule of Machine Decomposition: Compound tags must be automatically broken down into words in the components field.
