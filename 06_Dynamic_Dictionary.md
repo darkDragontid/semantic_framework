@@ -1,6 +1,6 @@
-### Dynamic Dictionary
+### Dynamic Dictionary for theme/focus
 
-The dictionary is designed to ensure consistency and reusability of tags at the theme and focus levels. It solves the problem of synonym conflict—when the same concept can be named by different words (e.g., AI, AI, machine_mind), which leads to semantic blurring and makes machine analysis impossible. It is not rigidly fixed but is dynamically updated, serving as a growing semantic core.
+The dictionary is designed to ensure consistency and reusability of tags at the theme and focus levels. It solves the problem of synonym conflict—when the same concept can be named by different words (e.g., AI, machine_mind), which leads to semantic blurring and makes machine analysis impossible. It is not rigidly fixed but is dynamically updated, serving as a growing semantic core.
 
 Rigidity and Flexibility: Resolving the Conflict
 
@@ -14,7 +14,7 @@ The system uses two complementary modes to resolve this conflict, ensuring a bal
 
 #### Flexible Input Interface (For the user):
 
-What it is: The ability to use any familiar synonyms and spelling variants (e.g., AI, AI).
+What it is: The ability to use any familiar synonyms and spelling variants (e.g., AI).
 
 - Purpose: Provides cognitive relief and a natural workflow. The user should not have to remember and manually enter long canonical forms. The system handles the work of converting synonyms into a single standard.
 
