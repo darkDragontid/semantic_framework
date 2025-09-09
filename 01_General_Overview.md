@@ -10,7 +10,7 @@ This tagging system is a method of semantic decomposition that transforms unstru
 
 - Semantic Descriptors (keywords, operation, emotion, context) - describes content, actions, and circumstances.
 
-- Utilitarian-Service Fields (meta_context (note creation context), action (task management), components (machine decomposition)).
+- Utilitarian-Service Fields (meta_context (note creation context), action (task management), `created_date` (timestamp)).
 
 This system was originally designed for symbiosis with artificial intelligence, acting as a "thought-machine" interface. The high complexity of the structure is justified by the fact that the main load of semantic analysis and field pre-filling falls on the AI, while the user's role is reduced to curation and verification. 
 _(for more details, see the section "Implementation and Modes of Operation")_
