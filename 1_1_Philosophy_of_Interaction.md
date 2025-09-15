@@ -4,7 +4,7 @@ This system is a practical application of a set of universal principles for effe
 
 #### 1. General Principles of Interaction with LLMs
 
-**1.1. Principle of a Clear Protocol:** An LLM is a processor, not an oracle. The quality of its response is directly dependent on the clarity of the task and the definitiveness of the required response format.
+**1.1. Principle of a Clear System:** An LLM is a processor, not an oracle. The quality of its response is directly dependent on the clarity of the task and the definitiveness of the required response format.
 
 **1.2. Principle of Iterative Refinement:** Interaction with AI is a dialogue, not a request. The first response is a draft that requires polishing and rethinking by a human.
 
@@ -16,7 +16,7 @@ This system is a practical application of a set of universal principles for effe
 
 #### 2. Implementation of Principles in This System
 
-**2.1. Protocol as an Interface:** The tagging system, with its strict fields and rules, is the implementation of the Principle of a Clear Protocol. It gives the AI an unambiguous instruction: "Analyze any text using this template."
+**2.1. System as an Interface:** The tagging system, with its strict fields and rules, is the implementation of the Principle of a Clear System. It gives the AI an unambiguous instruction: "Analyze any text using this template."
 
 **2.2. Verification Cycle:** The process where the AI suggests tag options and the user verifies and corrects them is the implementation of the Principle of Iterative Refinement.
 
@@ -26,4 +26,4 @@ This system is a practical application of a set of universal principles for effe
 
 **2.5. `relate` and `interpretation` Fields as Tools of Explication:** These fields are specifically designed to identify and capture non-obvious, implicit connections, which is a direct implementation of the Principle of Explication.
 
-The value of this tagging system lies in demonstrating that the future lies not in replacing humans with AI, but in their symbiosis, based on complementary strengths.
+*The value of this tagging system lies in demonstrating that the future lies not in replacing humans with AI, but in their symbiosis, based on complementary strengths.*
