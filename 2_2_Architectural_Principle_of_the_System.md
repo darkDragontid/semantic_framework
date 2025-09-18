@@ -1,4 +1,4 @@
-### Fundamental Principle of the System 
+### Architectural Principle of the System 
 Architectural Distribution of Complexity and Differential Strictness.
 
 This principle is fundamental to the entire system. It states that the complexity and linguistic strictness of tags are not arbitrary but are architecturally predetermined by the semantic role of each field within the overall structure.
@@ -11,7 +11,7 @@ The system consciously employs a hierarchy of four complexity levels, where each
 
 - Level 1 (Atomic): operation, emotion – Provide stability and ease of machine analysis.
 
-- Level 2 (Clear Composites): theme, focus, related – Create a machine-readable semantic framework of objects and connections.
+- Level 2 (Clear Composites): theme, object, related – Create a machine-readable semantic framework of objects and connections.
 
 - Level 3 (Free Composites): keywords, context – Maintain a connection to natural language while remaining within the structural framework.
 
@@ -23,10 +23,10 @@ Tag construction rules are applied with varying degrees of rigidity depending on
 
 - Level 1 (Atomicity): operation and emotion – By default, implies strict atomicity.
 
-- Level 2 (Strict Rules): For theme, focus, related. Only nouns and adjectives are permissible within a tag; a tag must consist of no more than 2-3 words. Prepositions and verbs are prohibited. Goal: purity of abstractions.
+- Level 2 (Strict Rules): For theme, object, related. Only nouns and adjectives are permissible within a tag; a tag must consist of no more than 2-3 words. Prepositions and verbs are prohibited. Goal: purity of abstractions.
 
 - Level 3 (Moderate Rules): For keywords, context. Set phrases with prepositions are permissible. Goal: balance between structure and flexibility.
 
 - Level 4 (Pragmatic Rules): For action, meta_context. Any formats are permissible. Goal: utilitarian usefulness.
 
-_Consequences of the Principle:_ This approach ensures machine-readability for semantic analysis, descriptive flexibility, system scalability, and a reduction of the user's cognitive load.
+*Consequences of the Principle*: This approach ensures machine-readability for semantic analysis, descriptive flexibility, system scalability, and a reduction of the user's cognitive load.
