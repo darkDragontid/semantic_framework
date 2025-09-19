@@ -4,16 +4,7 @@ This section describes a prospective direction for the system's development, ele
 
 The Problem of Multidimensional Interpretation
 
-The base system operates with the theme/focus pair as the primary tool for interpretation. However, a single note can be understood from several fundamentally different perspectives.
-
-_Example:_
-- A note about a broken promise can be interpreted from:
-
-- A functional perspective: theme: obligation_management / focus: deadline_miss
-
-- A psychological perspective: theme: interpersonal_conflict / focus: breach_of_trust
-
-An ethical perspective: theme: moral_responsibility / focus: consequences_of_choice
+The base system operates with the theme/focus pair as the primary tool for interpretation. However, a single note can be understood from several fundamentally different perspectives (for example, functional, psychological, ethical perspectives...)
 
 The Concept of an "Interpretation Container"
 
@@ -26,7 +17,7 @@ _yaml_
 interpretation:
   - perspective: "psychological"
     - theme: "interpersonal_conflict"
-    - focus: "breach_of_trust"
+    - focus: "trust_breach"
   - perspective: "functional"
     - theme: "obligation_management"
     - focus: "deadline_miss"
@@ -36,14 +27,6 @@ The interpretation meta-layer does not replace the domain, category, theme, and 
 #### The Problem:
 
 The category field (or the activity_type/content_type pair) describes the note as a whole. But if a note has multiple interpretations, its "type" can change drastically depending on the perspective.
-
-_Example:_ A note about a painting can be:
-
-- From an art criticism perspective: content_type: analysis
-
-- From a psychological perspective: content_type: reflection
-
-- From a technical perspective: content_type: instruction (about painting technique)
 
 What should be put in the "main" field? If we choose one, we lose information. If we put everything at once, the field turns into a junk drawer.
 
